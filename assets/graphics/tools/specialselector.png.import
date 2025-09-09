@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpceh02g4g2sy"
-path="res://.godot/imported/magicwand.png-a88950f47e167183b2e78f8980f580f0.ctex"
+uid="uid://b3xttw1w2sk0s"
+path="res://.godot/imported/specialselector.png-49c3772f229bc72be6c771d984e4cddb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/tools/cursors/magicwand.png"
-dest_files=["res://.godot/imported/magicwand.png-a88950f47e167183b2e78f8980f580f0.ctex"]
+source_file="res://assets/graphics/tools/specialselector.png"
+dest_files=["res://.godot/imported/specialselector.png-49c3772f229bc72be6c771d984e4cddb.ctex"]
 
 [params]
 

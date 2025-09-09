@@ -1,7 +1,7 @@
 @tool
 class_name AImgIOAPNGStream
 extends RefCounted
-# APNG IO context. To be clear, this is still effectively magic.
+# APNG IO context.
 
 # Quite critical we preload this. Preloading creates static variables.
 # (Which GDScript doesn't really have, but we need since we have no tree access)

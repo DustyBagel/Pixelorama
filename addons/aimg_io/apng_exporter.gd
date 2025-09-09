@@ -1,6 +1,6 @@
 class_name AImgIOAPNGExporter
 extends AImgIOBaseExporter
-# APNG exporter. To be clear, this is effectively magic.
+# APNG exporter.
 
 
 func _init():

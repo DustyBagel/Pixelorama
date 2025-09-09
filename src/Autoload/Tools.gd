@@ -73,9 +73,9 @@ var tools: Dictionary[String, Tool] = {
 		"color_select",
 		"res://src/Tools/SelectionTools/ColorSelect.tscn"
 	),
-	"MagicWand":
+	"SpecialSelector":
 	Tool.new(
-		"MagicWand", "Magic Wand", "magic_wand", "res://src/Tools/SelectionTools/MagicWand.tscn"
+		"SpecialSelector", "Special Selector", "special_selector", "res://src/Tools/SelectionTools/SpecialSelector.tscn"
 	),
 	"Lasso":
 	Tool.new(
@@ -308,6 +308,7 @@ class Tool:
 
 	func instantiate_scene() -> Node:
 		if not is_instance_valid(scene):
+			print_rich("[b][color=green]" + scene_path + "[/b][/color]")
 			scene = load(scene_path)
 		return scene.instantiate()
 
